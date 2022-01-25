@@ -11,7 +11,7 @@ namespace Example
 
         public void power()
         {
-            Console.Write("Enter the value of exponent ");
+            Console.Write("Enter the value of exponent of 2 ");
             int value = Convert.ToInt32(Console.ReadLine());
             int result = 1;
             Console.WriteLine(result);
