@@ -13,17 +13,19 @@ namespace Example
         {
             int Head = 0, Tail = 0;
             {
-                for (int i = 0; i < 10; i++) ;
-                 Random rand = new Random();
-                 int result = rand.Next(0, 2);
-            
-                if (result > 0)
+                for (int i = 0; i < 10; i++)
                 {
-                    Head++;
-                }
-                else
-                {
-                    Tail++;
+                    Random rand = new Random();
+                    int result = rand.Next(0, 2);
+
+                    if (result > 0)
+                    {
+                        Head++;
+                    }
+                    else
+                    {
+                        Tail++;
+                    }
                 }
             }
             Console.WriteLine("Number of times Head comes =" + Head );
