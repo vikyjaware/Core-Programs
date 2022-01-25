@@ -11,3 +11,9 @@ CoinToss.toss();
 
 LeapYear LeapYear = new LeapYear();
 LeapYear.year();
+
+PowerOf2 PowerOf2 = new PowerOf2();
+PowerOf2.power();
+
+HarmonicNumber HarmonicNumber = new HarmonicNumber();
+HarmonicNumber.harmonic();
