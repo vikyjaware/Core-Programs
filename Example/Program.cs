@@ -17,3 +17,6 @@ PowerOf2.power();
 
 HarmonicNumber HarmonicNumber = new HarmonicNumber();
 HarmonicNumber.harmonic();
+
+PrimeFactors Factors = new PrimeFactors();
+Factors.factor();
