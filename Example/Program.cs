@@ -8,3 +8,6 @@ replace.Hello();
 
 CoinToss CoinToss = new CoinToss();
 CoinToss.toss();
+
+LeapYear LeapYear = new LeapYear();
+LeapYear.year();
