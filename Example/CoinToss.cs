@@ -28,8 +28,8 @@ namespace Example
                     }
                 }
             }
-            Console.WriteLine("Number of times Head comes =" + Head );
-            Console.WriteLine("Number of times Tail comes =" + Tail );
+            Console.WriteLine("Percentage of Head count =" + ( Head*100/10 ) );
+            Console.WriteLine("Percentage of Tail count =" + ( Tail*100/10 ) );
             Console.ReadLine();
         }
     }
