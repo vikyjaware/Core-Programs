@@ -28,8 +28,8 @@ namespace Example
                     }
                 }
             }
-            Console.WriteLine("Percentage of Head count =" + ( Head*100/10 ) );
-            Console.WriteLine("Percentage of Tail count =" + ( Tail*100/10 ) );
+            Console.WriteLine("Percentage of Head outcomes =" + ( Head*100/10 ) );
+            Console.WriteLine("Percentage of Tail outcomes =" + ( Tail*100/10 ) );
             Console.ReadLine();
         }
     }
